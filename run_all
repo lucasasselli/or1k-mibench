@@ -1,0 +1,2 @@
+or1k-elf-sim automotive/basicmath/basicmath_large -f sim.cfg
+mv executed.log logs/basicmath_large.log
