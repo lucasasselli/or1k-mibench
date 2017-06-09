@@ -1,1 +1,0 @@
-or1k-elf-sim -f sim.cfg -t --srv=51000 main
