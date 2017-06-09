@@ -16,18 +16,14 @@
  # -msoft-float                Do not use hardware floating point
  # -msoft-mul                  Do not use hardware multiplication
 
-CC=or1k-elf-gcc
-FLAGS='-static -O3 -mhard-div -mhard-mul -mhard-float -mdouble-float'
+OPTIONS=-mhard-div -mhard-mul -mhard-float -mdouble-float
 
+all: main.s main
 
-all:
-	(cd automotive/basicmath; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/bitcount; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/qsort; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/susan; make all CC=$(CC) FLAGS=$(FLAGS))
+main.s: main.c
+	or1k-elf-gcc $(OPTIONS) -S main.c -o main.s
 
+main: main.c
+	or1k-elf-gcc $(OPTIONS) main.c -o main
 clean:
-	(cd automotive/basicmath; make clean)
-	(cd automotive/bitcount; make clean)
-	(cd automotive/qsort; make clean)
-	(cd automotive/susan; make clean)
+	rm -f main main.s

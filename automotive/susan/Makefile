@@ -1,5 +1,10 @@
+CC=gcc
+FLAGS=-static -O3
+
+all: susan
+
 susan: susan.c Makefile
-	or1k-elf-gcc -static -O4 -o susan susan.c -lm 
+	$(CC) $(FLAGS) -o susan susan.c -lm 
 
 clean:
 	rm -rf susan output*
