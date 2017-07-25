@@ -17,7 +17,7 @@
  # -msoft-mul                  Do not use hardware multiplication
 
 CC=or1k-elf-gcc
-FLAGS='-static -O3 -mhard-div -mhard-mul -mhard-float -mdouble-float'
+FLAGS='-static -O3 -mhard-div -mhard-mul'
 
 
 all:

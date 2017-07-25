@@ -53,3 +53,7 @@ dkms.conf
 
 # Other
 *.tar.gz
+
+# Log folder
+logs/*
+!logs/.gitkeep

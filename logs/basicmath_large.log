@@ -1,4 +1,4 @@
-Seeding random generator with value 0xb6faf517
+Seeding random generator with value 0xa2c608f7
 Data MMU 0KB: 1 ways, 64 sets, entry size 1 bytes
 Insn MMU 0KB: 1 ways, 64 sets, entry size 1 bytes
 Or1ksim 2012-04-27
@@ -13,72 +13,38 @@ ELF version: 0x00000001
 ELF sec = 24
 Section: .vectors, vaddr: 0x00000000, paddr: 0x0 offset: 0x00002000, size: 0x00002000
 Section: .init, vaddr: 0x00002000, paddr: 0x2000 offset: 0x00004000, size: 0x00000028
-Section: .text, vaddr: 0x00002028, paddr: 0x2028 offset: 0x00004028, size: 0x00016530
-Section: .fini, vaddr: 0x00018558, paddr: 0x18558 offset: 0x0001a558, size: 0x0000001c
-Section: .rodata, vaddr: 0x00018574, paddr: 0x18574 offset: 0x0001a574, size: 0x00000e44
+Section: .text, vaddr: 0x00002028, paddr: 0x2028 offset: 0x00004028, size: 0x00016a30
+Section: .fini, vaddr: 0x00018a58, paddr: 0x18a58 offset: 0x0001aa58, size: 0x0000001c
+Section: .rodata, vaddr: 0x00018a74, paddr: 0x18a74 offset: 0x0001aa74, size: 0x00000e44
 Section: .eh_frame, vaddr: 0x0001a000, paddr: 0x1a000 offset: 0x0001c000, size: 0x000000bc
 Section: .ctors, vaddr: 0x0001a0bc, paddr: 0x1a0bc offset: 0x0001c0bc, size: 0x00000008
 Section: .dtors, vaddr: 0x0001a0c4, paddr: 0x1a0c4 offset: 0x0001c0c4, size: 0x00000008
 Section: .jcr, vaddr: 0x0001a0cc, paddr: 0x1a0cc offset: 0x0001c0cc, size: 0x00000004
-Section: .data, vaddr: 0x0001a0d0, paddr: 0x1a0d0 offset: 0x0001c0d0, size: 0x00000cf4
+Section: .data, vaddr: 0x0001a0d0, paddr: 0x1a0d0 offset: 0x0001c0d0, size: 0x00000cf8
 ********* CUBIC FUNCTIONS ***********
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-Solutions: 0.000000 0.000000 0.000000
-(sim) 
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+Solutions: 0.000000
+(sim) ^C^C^C^C^Z
