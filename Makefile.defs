@@ -17,17 +17,4 @@
  # -msoft-mul                  Do not use hardware multiplication
 
 CC=or1k-elf-gcc
-FLAGS='-static -O3 -mhard-div -mhard-mul'
-
-
-all:
-	(cd automotive/basicmath; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/bitcount; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/qsort; make all CC=$(CC) FLAGS=$(FLAGS))
-	(cd automotive/susan; make all CC=$(CC) FLAGS=$(FLAGS))
-
-clean:
-	(cd automotive/basicmath; make clean)
-	(cd automotive/bitcount; make clean)
-	(cd automotive/qsort; make clean)
-	(cd automotive/susan; make clean)
+CFLAGS=-static -O3 -mboard=or1ksim-uart
