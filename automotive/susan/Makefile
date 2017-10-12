@@ -2,26 +2,26 @@ include ../../Makefile.defs
 
 all: small large
 
-small: susan_small_smooth.elf susan_small_edges.elf susan_small_corners.elf
-large: susan_large_smooth.elf susan_large_edges.elf susan_large_corners.elf
+small: susan-small-smooth.elf susan-small-edges.elf susan-small-corners.elf
+large: susan-large-smooth.elf susan-large-edges.elf susan-large-corners.elf
 
-susan_small_smooth.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_small_smooth.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=0
+susan-small-smooth.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-small-smooth.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=0
 
-susan_small_edges.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_small_edges.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=1
+susan-small-edges.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-small-edges.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=1
 
-susan_small_corners.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_small_corners.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=2
+susan-small-corners.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-small-corners.elf susan.c input_small.S -lm -DINPUT_SMALL -DMODE=2
 
-susan_large_smooth.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_large_smooth.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=0
+susan-large-smooth.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-large-smooth.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=0
 
-susan_large_edges.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_large_edges.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=1
+susan-large-edges.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-large-edges.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=1
 
-susan_large_corners.elf: susan.c Makefile
-	$(CC) $(CFLAGS) -o susan_large_corners.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=2
+susan-large-corners.elf: susan.c Makefile
+	$(CC) $(CFLAGS) -o susan-large-corners.elf susan.c input_large.S -lm -DINPUT_LARGE -DMODE=2
 
 clean:
 	rm -rf *.elf

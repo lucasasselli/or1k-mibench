@@ -17,4 +17,4 @@
  # -msoft-mul                  Do not use hardware multiplication
 
 CC=or1k-elf-gcc
-CFLAGS=-static -O3 -mboard=or1ksim-uart
+CFLAGS=-static -O3 -mboard=or1ksim
