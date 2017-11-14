@@ -44,21 +44,6 @@ int main(void)
   for(i=0;i<solutions;i++)
     printf(" %f",x[i]);
   printf("\n");
-
-  /* Now solve some random equations */
-  for(a1=1;a1<10;a1+=5) {
-    for(b1=10;b1>0;b1-=2) {
-      for(c1=5;c1<15;c1+=1) {
-	for(d1=-1;d1>-11;d1--) {
-	  SolveCubic(a1, b1, c1, d1, &solutions, x);  
-	  printf("Solutions:");
-	  for(i=0;i<solutions;i++)
-	    printf(" %f",x[i]);
-	  printf("\n");
-	}
-      }
-    }
-  }
   
   printf("********* INTEGER SQR ROOTS ***********\n");
   /* perform some integer square roots */
