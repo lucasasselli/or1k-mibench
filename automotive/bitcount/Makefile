@@ -11,4 +11,5 @@ bitcnts-large.elf: ${FILE}
 	$(CC) $(CFLAGS) ${FILE} -o bitcnts-large.elf -DINPUT_LARGE
 
 clean:
-	rm -rf bitcnts output*
+	rm -rf *.elf
+
